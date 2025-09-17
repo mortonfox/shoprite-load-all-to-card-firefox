@@ -11,3 +11,5 @@ Check <https://github.com/mortonfox/shoprite-load-all-to-card-firefox/releases> 
 ## Usage
 
 Once you've installed and enabled this extension, go to the ShopRite Digital Coupons Center and find the "Load All To Card" button on the top left corner. Click on it and it will load all the coupons to your card.
+
+<img width="800" height="325" alt="Load All To Card button" src="https://github.com/user-attachments/assets/b39b6614-8709-49b5-856a-8a91247c710f" />
