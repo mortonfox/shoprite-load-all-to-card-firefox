@@ -6,17 +6,26 @@
     "description": "In the Digital Coupon Center, load all coupons to the ShopRite card.",
 
     "browser_action": {
-	"default_title": "shoprite_load_all_to_card"
+        "default_title": "shoprite_load_all_to_card"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "shoprite.load.all.to.card@mortonfox.com",
+            "data_collection_permissions": {
+                "required": [ "none" ]
+            }
+        }
     },
 
     "content_scripts": [
-	{
-	    "matches": [
+        {
+            "matches": [
                 "*://www.shoprite.com/sm/planning/rsid/538/digital-coupon*",
                 "*://shop-rite-web-prod.azurewebsites.net/*"
-	    ],
-	    "js": ["main.js"],
+            ],
+            "js": ["main.js"],
             "all_frames": true
-	}
+        }
     ]
 }
