@@ -14,7 +14,7 @@ Once you've installed and enabled this extension, go to the ShopRite Digital Cou
 
 Click on it and the browser extension will:
 
-* click on the Show All button to show all the coupons
+* scroll down until all coupons come into view
 * click on coupons that are available to load to add them to your card
 
 <img width="800" height="325" alt="Load All To Card button" src="https://github.com/user-attachments/assets/b39b6614-8709-49b5-856a-8a91247c710f" />
